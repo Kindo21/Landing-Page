@@ -60,12 +60,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 4% 0% 2% 4%;
     
 }
 .boxes .container{
     display: flex;
     justify-content: space-between;
     align-content: center;
+    padding: 2% 0% 2% 4%;
+
+}
+.boxes h1 {
+    font-size: 36px;
+    font-weight: bolder;
     
 }
 .box{
@@ -74,16 +81,18 @@
     
 }
 .boxes h1 {
+    padding: 2% 0% 0% 0%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .quote .container {
     padding: 10%;
-    margin-top: 5%;
+    /*margin-top: 5%;
     margin-left: 20%;
-    margin-right: 10%;
-    margin-bottom: 5%;
+    margin-right: 20%;
+    margin-bottom: 5%;*/
+    margin: 5% 20% 5% 20%;
     
     
 }
@@ -122,6 +131,11 @@
         flex-direction: column;
         align-content: center;
     }
+    .footer .container{
+        display: flex;
+
+    }
+   
 }
 button{
     background-color: #3882f6;
@@ -142,12 +156,14 @@ button{
     display: inline-block;
 }
 .action .container{
-    margin: 5%;
+    margin-bottom: 5%;
     padding: 2% 5% 2% 5%;
     background-color: #3882f6;
     border-radius: 4px;
     display: flex;
-    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-between;
     
 }
 .action .call{
