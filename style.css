@@ -65,12 +65,27 @@
 .boxes .container{
     display: flex;
     justify-content: space-between;
+    align-content: center;
     
 }
 .box{
     flex: 1;
     
+    
 }
-.boxes{
-    background-color: #3882f6;
+.boxes h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align:  center;
+    }
+    .boxes .container {
+        display: block;
+        text-align: center;
+    }
 }
