@@ -1,0 +1,33 @@
+.header{
+ flex: 1;
+ display: flex;
+ background-color: #1F2937;
+ justify-content: space-between;
+}
+ol li{
+    list-style-type: none;
+    
+}
+.child{
+    display: flex;
+}
+ol{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-right: 25px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.headertext{
+font-size: 24px;
+color: #f9faf8;
+padding-left: 25px;
+}
